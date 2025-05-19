@@ -16,8 +16,8 @@ class PaypalController extends Controller
 
     public function __construct()
     {
-        $clientId = 'AfyevkOJC7ssBshzLuD_uOPE7ntONyzmXnq0KU4ThJ0XhakWhmnzWXTq2cvfCiRxTQuW3shLW03doI6H';
-        $clientSecret = 'ECMoPioSOLnmroEmsyf_WRfXI2SK9w-A_aqLJCT9_CwyOWNw0LE93uRph5ArJMGqMfv7BPvJljde3GrM';
+        $clientId = 'AfZvGbk3_PHgf7qrLs3Yyt8Mo4thDqgN9LjAhBi4-vVFMxGkMgFujUZGzq29d7iRgy-OgnJjs-DOOaBq';
+        $clientSecret = 'EOHxEeOHPoVMoM-po62qPAiKRfTTz0jumWnReEq4HoBwZoVbaV0AhzZJwW4ZIsId_PLYb6OGZxje6D2p';
         $environment = new SandboxEnvironment($clientId, $clientSecret);
         $this->client = new PayPalHttpClient($environment);
     }
